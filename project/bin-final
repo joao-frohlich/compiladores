@@ -1,0 +1,4 @@
+#!/bin/bash
+bison -d final.y
+flex final.lex
+g++ final.tab.c lex.yy.c -o final -lm

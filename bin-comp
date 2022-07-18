@@ -1,0 +1,4 @@
+#!/bin/bash
+bison -d comp.y
+flex comp.lex
+gcc comp.tab.c lex.yy.c -o comp -lm
