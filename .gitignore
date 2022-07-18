@@ -1,0 +1,5 @@
+gram
+comp
+calc.tab.c
+calc.tab.h
+symtablefunctions.o
